@@ -23,12 +23,12 @@ not stirred"`
 
 func main() {
 	fmt.Println(y)
-	// '%T\n' 키워드를 사용하면 해당 변수의 타입을 출력한다.
-	fmt.Printf("%T\n", y)
+	// '%T' 키워드를 사용하면 해당 변수의 타입을 출력한다.
+	fmt.Printf("%T", y)
 	fmt.Println(z)
-	fmt.Printf("%T\n", z)
+	fmt.Printf("%T", z)
 	fmt.Println(a)
-	fmt.Printf("%T\n", a)
+	fmt.Printf("%T", a)
 	// z = 43
 	// fmt.Println(z)
 	// fmt.Printf("%T\n", z)
